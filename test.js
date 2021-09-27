@@ -48,20 +48,16 @@ function female () {
         /* 2. Дана функция ggg. Она требует первым параметром число, вторым функцию, которая возводит в квадрат, а третьим параметром функцию, которая возводит в куб.
         Эти функции есть как Function Declaration - kvadrat, kub. Пусть функция ggg вернет сумму квадрата и куба числа. */
 
-/* let num = prompt ('Число')
-let functionDeclaration = prompt ('kvadrat, kub')
-
-if (functionDeclaration == 'kvadrat') {
-    kvadrat ()
-}else {
-    kub ()
+/* function ggg (num,kvadrat,kub) {
+    alert (kvadrat(num) + kub(num))
+}        
+function kvadrat (num) {
+   return num**2    
 }
-function kvadrat () {
-    alert (num**2)
+function kub (num) {
+   return num**3
 }
-function kub () {
-    alert (num**3)
-}
+ggg (5 ,kvadrat, kub);
  */
 
 
